@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="./sign-in.css" rel="stylesheet">
+</head>
+<body>
+    <div class="signin-container" >
+        <div class="title">
+            <div class="logo" ><img src="./assets/logo.png" alt="logo"></div>
+            <div id="wb1" >Welcome back</div>
+            <div id="wb2">Welcome back! Please enter your details</div>
+            
+            <!-- <div class="student-container">
+                <div class="student1" >Student</div>
+                <div class="student2">Student_1</div>
+            </div> -->
+            <form class="form">
+                <div>
+                    <p class="text">Email</p>
+                    <input required type="email" name="Email" id="email-input" placeholder="  Enter your email">
+                </div>
+                <div>
+                    <p class="text">Password</p>
+                    <input type="password" name="Password" id="password-input" placeholder="  Enter your password">
+                </div>
+                <div class="options">
+                    <label class="remember-me">
+                        <input type="checkbox" name="remember" id="remember-checkbox">Remember me</label>
+                    <a href="#" class="forgot-password">Forgot password</a>
+                </div>                
+                <button class="login" type="submit">
+                    <span class="txt-login">login</span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+                        </svg>
+                    </span>
+                </button>
+                <button class="google-login" type="submit">
+                    <span>
+                        <img src="./assets/Google.png" alt="Google icon">
+                    </span>
+                </button>
+                <span class="no-acnt">
+                    <p>Don't have an account? <a href="">Enroll now</a></p>
+                </span>
+            </form>
+        </div>
+        <div class="signin-image">
+            <div>
+                <img src="./assets/Left.png" alt="signing image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
