@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dosis:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Markazi+Text:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC+Guides&family=Playwrite+IE+Guides&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light+Two&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+
+.vector-container {
+    background-color: #EBF4FF;
+    height: auto;
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.navbar-menu {
+    display: flex;
+    margin-top: 10px;
+}
+
+.navbar-menu:hover {
+    cursor: pointer;
+}
+
+.navbar-menu > div > img {
+    height: 50px;
+    margin-right: 100px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.nav-menu li {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+}
+
+.enroll-button {
+    justify-content: center;
+    margin-left: 200px;
+    border: none;
+    margin-top: 30px;
+    background: white;
+}
+
+.enroll-button img {
+    height: 35px;
+}
+
+.enroll-button img:hover {
+    cursor: pointer;
+}
+
+.vector-container {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.right-box img {
+    height: auto;
+    width: 400px;
+}
+
+.discover-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.discover-btn img {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.discover-btn img:hover {
+    cursor: pointer;
+}
+
+.left-box {
+    margin-top: 110px;
+}
+
+.left-box img {
+    width: auto;
+}
+
+.left-box h1 {
+    font-family: "Plus Jakarta Sans", serif;
+    margin-bottom: 25px;
+}
+
+.left-box .text-color {
+    color: #FF9900;
+}
+
+.left-box span {
+    color: black;
+}
+
+.left-box p {
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.star-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-container img {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 400px;
+}
+
+.star-container h3 {
+    font-family: "Plus Jakarta Sans", serif;
+    margin-bottom: 9px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.star-container span {
+    color: #1152A2;
+}
+
+.star-container .para1 {
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.logo-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #1152A2;
+    height: 100px;
+    gap: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.logo-box {
+    background-color: #1152A2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-box img {
+    object-fit: contain;
+    height: 80px;
+    width: 120px;
+    background: #1152A2;
+}
+.consume-course-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.consume-course-heading h1 {
+    font-family: "Plus Jakarta Sans", serif;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 300;
+}
+
+.consume-course-heading p {
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.consume-course-heading span {
+    color: #00828F;
+}
+
+.consume-courses {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.right-box1 img {
+    height: 300px;
+}
+
+.left-box1 img {
+    height: 300px;
+}
+
+.consume-courses button {
+    border: none;
+    cursor: pointer;
+}
+
+.start-career-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.start-career-container h1 {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.start-career-container span {
+    color: #FF9900;
+}
+
+.base-container {
+    background-color: #FDFCF9;
+    width: 100%;
+}
+
+.career-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-box, .buttom-box {
+    background-color: #FFF7EC;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 30px; 
+    overflow: hidden;
+}
+
+.career-image {
+    width: 40%; 
+    float: left;
+    padding: 10px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.career-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.career-text {
+    width: 55%; 
+    float: left; 
+    padding: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 1.6;
+    margin-top: 50px;
+    font-weight: 200;
+}
+
+.career-text h2 {
+    color: #FF9900;
+}
+
+.learners-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 80px;
+}
+
+.learners-container h2 {
+    font-weight: 300;
+    font-size: 2.3rem;
+}
+
+.learners-container .hear {
+    font-size: 2.2rem;
+    margin-left: 30px;
+}
+
+#span {
+    color: #00828F;
+}
+
+.feedback-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.feedback-container img {
+    height: 180px;
+    width: 160px;
+    margin-top: 30px;
+}
+
+.feedback-container p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.profession {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    display: flex;
+    margin-top: 200px;
+    border: none;
+    background: none;
+}
+
+.arrow img {
+    height: 54px;
+    width: 54px;
+}
+
+
+.arrow img:hover {
+    cursor: pointer;
+}
+
+.faq-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: auto;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.faq-container h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.faq-container span {
+    color: #00828F;
+}
+
+.faq-question:hover {
+    background-color: #f0f0f0;
+}
+
+.toggle-icon {
+    font-size: 20px;
+    color: #ECEFF3;
+}
+ 
+.faq-answer {
+    display: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.engage-container {
+    display: flex;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.engage-container h2 {
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.engage-container .text{
+    text-align: center;
+}
+
+#tech {
+    text-align: center;
+}
+
+.engage-container span {
+    color: #FF9900;
+}
+
+
+.frame-container {
+    display: flex;
+    padding: 6rem;
+}
+
+.frame-container img {
+    width: 100%;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1152A2 60%, #FF9900);
+    padding: 20px;
+    text-align: center;
+    gap: 10px; 
+    height: auto; 
+}
+
+.newsletter-container h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 2.5rem; 
+    font-weight: 300;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.newsletter-container p {
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 100;
+    margin: 0 50px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    background-color: #f1f4f8;
+    border-radius: 25px;
+    padding: 5px;
+    width: 90%; 
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.email-input {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    flex: 1;
+    outline: none;
+    color: #555;
+    background-color: #f1f4f8;
+}
+
+.email-input::placeholder {
+    color: #aaa;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 100;
+}
+
+.join-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.join-button img {
+    height: 38px;
+    width: auto;
+    display: block;
+    border-radius: 25px;
+}
+
+.contactinfo-container {
+    background: linear-gradient(120deg, #17474A 10%, black);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.contactinfo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #17474A 50%, white);
+    width: 100%;
+    max-width: 1000px;
+    height: 800px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+.contactinfo-box-left {
+    background-color: #012225;
+    padding: 20px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.contactinfo-box-left h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.contactinfo-box-left p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.form-footer button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-footer img {
+    height: 50px;
+    width: auto;
+}
+
+.form-footer span {
+    color: orange;
+}
+
+.contact-form input,
+.contact-form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 100%;
+    font-weight: 100;
+}
+
+.contact-form input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Change background and border color when checked */
+.contact-form input[type="checkbox"]:checked {
+    background-color: #00828F;
+    border-color: #00828F;
+}
+
+/* Create the tick mark inside the checkbox when checked */
+.contact-form input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact-info-box {
+    display: flex;
+    align-items: center;
+    background: #0A3335;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.contact-info-box img {
+    width: 100%;
+    height: 70px;
+    background: #0A3335;
+    border: 0;
+    object-fit: contain;
+}
+
+.contact-info-box button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.contactinfo-box-right {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.social-icons-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+div .social-icon-box {
+    display: flex;
+    object-fit: contain;
+    justify-content: space-evenly;
+    border: none;
+    background-color: transparent;
+}
+
+div .social-icon-box img {
+    height: 70px;
+    width: 70px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 50px;
+    clear: both;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 250px;
+}
+
+.footer-logo img {
+    object-fit: contain;
+    height: 80px;
+    width: 120px;
+    align-items: flex-start;
+}
+
+.footer-logo p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 10px;
+    text-align: start;
+}
+
+.footer-logo button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.footer-links {
+    display: flex;
+    flex: 1;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-weight: 100;
+}
+
+.footer-links a {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    flex: 1;
+    font-weight: 100;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-weight: 100;
+}
+
+/* .footer-line {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ffffff;
+} */
