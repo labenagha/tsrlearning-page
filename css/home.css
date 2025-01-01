@@ -4,21 +4,16 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    align-items: center;
-    justify-content: center;
     scroll-behavior: smooth;
-}
 
-
-.vector-container {
-    background-color: #EBF4FF;
-    height: auto;
+    /* Ensures padding and border don't add extra space */
+    box-sizing: border-box;
 }
 
 .nav-bar-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .navbar-menu {
@@ -71,11 +66,113 @@
     display: flex;
     justify-content: center;
     gap: 130px;
+    background-color: #EBF4FF;
+    /* height: 60vh;
+    width: auto; */
+}
+
+
+/* Container for the hero section */
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06428b; /* Blue background */
+    overflow: hidden;
+}
+
+/* Overlay for text */
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensure text is above image */
+    padding: 0 20px;
+}
+.hero-container span {
+    color: #FF9900;
+}
+
+.hero-overlay h2 {
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 10px 0;
+    font-family: "Plus Jakarta Sans", serif;
+    text-align: center;
+
+}
+
+.hero-overlay p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: "Plus Jakarta Sans", serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* CTA Button */
+.cta-button {
+    background-color: #F88C00; /* Button color */
+    padding: 15px 30px;
+    font-size: 100;
+    color: white;
+    text-decoration: none;
+    border-radius: 18px;
+    display: inline-block;
+    width: 30%;
+}
+
+/* Background image */
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire section */
+    z-index: 0;
+}
+
+/* Arrows */
+.arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    font-size: 2rem;
+    color: white;
+    padding: 0 300px;
+    height: 50px;
+    transform: translateY(-50%);
+}
+
+.arrows {
+    cursor: pointer;
+}
+
+.left-arrow img {
+    text-align: left;
+    height: 10px;
+    width: 10px;
+}
+
+.right-arrow {
+    text-align: right;
 }
 
 .right-box img {
+    margin-top: 39.9px;
     height: auto;
-    width: 400px;
+    width: 550px;
+    background-color: transparent;
 }
 
 .discover-btn {
@@ -96,6 +193,12 @@
     margin-top: 110px;
 }
 
+#txt {
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
 .left-box img {
     width: auto;
 }
@@ -107,6 +210,8 @@
 
 .left-box .text-color {
     color: #FF9900;
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 .left-box span {
@@ -115,6 +220,7 @@
 
 .left-box p {
     font-family: "Plus Jakarta Sans", serif;
+    line-height: 1.5;
 }
 
 .star-container {
@@ -198,6 +304,7 @@
     text-align: center;
     margin-top: 8px;
     margin-bottom: 40px;
+    line-height: 1.5;
 }
 
 .consume-course-heading span {
@@ -208,14 +315,15 @@
     display: flex;
     gap: 150px;
     justify-content: center;
+    background-color: transparent;
 }
 
 .right-box1 img {
-    height: 300px;
+    height: 400px;
 }
 
 .left-box1 img {
-    height: 300px;
+    height: 400px;
 }
 
 .consume-courses button {
@@ -304,13 +412,10 @@
 }
 
 .learners-container h2 {
-    font-weight: 300;
-    font-size: 2.3rem;
-}
-
-.learners-container .hear {
-    font-size: 2.2rem;
-    margin-left: 30px;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 100;
+    font-size: xx-large;
+    text-align: center;
 }
 
 #span {
@@ -333,6 +438,8 @@
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 200;
     font-size: 0.8rem;
+    line-height: 1.5;
+    margin-top: 10px;
 }
 
 .profession {
@@ -358,9 +465,8 @@
 }
 
 .faq-container {
-    max-width: 1200px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 80px;
     background-color: #fff;
     border-radius: 8px;
     height: auto;
@@ -522,28 +628,29 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 40px;
-
+    padding: 30px;
 }
 
 .contactinfo-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #17474A 50%, white);
-    width: 100%;
-    max-width: 1000px;
-    height: 800px;
     border-radius: 50px;
     padding: 50px;
-    margin-top: 40px;
+    background: linear-gradient(135deg, #17474A 50%, white);
+
+    /* width: 100%;
+    max-width: 1000px;
+    height: 800px;
+    padding: 50px;
+    margin-top: 40px; */
 }
 
 .contactinfo-box-left {
     background-color: #012225;
-    padding: 20px;
+    padding: 40px;
     width: 45%;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .contactinfo-box-left h4 {
@@ -560,6 +667,7 @@
     color: white;
     margin-bottom: 20px;
     font-weight: 100;
+    line-height: 1.5;
 }
 
 .contact-form {
@@ -656,6 +764,7 @@
     background: #0A3335;
     border: 0;
     object-fit: contain;
+
 }
 
 .contact-info-box button {
@@ -701,6 +810,7 @@ div .social-icon-box img {
     gap: 100px;
     margin-top: 50px;
     clear: both;
+    padding: 50px;
 }
 
 .footer-logo {
@@ -719,6 +829,7 @@ div .social-icon-box img {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 10px;
     text-align: start;
+    line-height: 1.5;
 }
 
 .footer-logo button {
@@ -749,14 +860,12 @@ div .social-icon-box img {
 
 footer p {
     text-align: center;
-    margin-top: 20px;
     width: 100%;
     color: white;
     font-weight: 100;
 }
 
 /* Mobile Reponsiveness */
-
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (max-width: 768px)  {
 
@@ -813,6 +922,7 @@ footer p {
         font-family: "Plus Jakarta Sans", serif;
         text-align: center;
         font-weight: 100;
+        line-height: 1.5;
     }
 
     .star-container {
