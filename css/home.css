@@ -1060,7 +1060,7 @@ footer p {
 
 
 /* MD screens */
-@media (max-width: 768px)  {
+@media (max-width: 480px)  {
 
     * {
         box-sizing: border-box;
